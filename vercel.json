@@ -1,0 +1,27 @@
+{
+  "github": {
+    "silent": true
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/logs.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/auth",
+      "dest": "/api/auth.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/callback",
+      "dest": "/api/callback.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/sync",
+      "dest": "/api/sync.js",
+      "methods": ["GET"]
+    }
+  ]
+}
