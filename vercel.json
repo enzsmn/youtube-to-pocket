@@ -19,6 +19,11 @@
       "methods": ["GET"]
     },
     {
+      "src": "/seed",
+      "dest": "/api/seed.js",
+      "methods": ["GET"]
+    },
+    {
       "src": "/sync",
       "dest": "/api/sync.js",
       "methods": ["GET"]
