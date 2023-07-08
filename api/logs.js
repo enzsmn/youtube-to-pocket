@@ -2,7 +2,7 @@ const moment = require('moment-timezone');
 const {MongoClient} = require('mongodb');
 
 module.exports = async (request, response) => {
-    client = new MongoClient(process.env.MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true});
+    const client = new MongoClient(process.env.MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true});
     client.connect(async error => {
         if (error) {
             throw error;
